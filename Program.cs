@@ -15,8 +15,8 @@ string[] ArrayFirst(int size=5)
 
 string[] ArraySecond(string[] a)
 {
-  int count=0;
   string[] b=new string[a.Length];
+  int count=0;
   for(int i=0;i<a.Length;i++)
   {
     if (a[i].Length<=3)
